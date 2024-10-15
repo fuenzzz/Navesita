@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menus.unity
+    guid: 8d688a21b61292a4a8b823c790a8e46c
+  - enabled: 1
     path: Assets/Scenes/Navesita.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
