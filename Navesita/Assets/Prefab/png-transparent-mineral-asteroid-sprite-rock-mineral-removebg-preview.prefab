@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5494438167372681851}
   m_Layer: 0
   m_Name: png-transparent-mineral-asteroid-sprite-rock-mineral-removebg-preview
-  m_TagString: Untagged
+  m_TagString: meteorito
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
