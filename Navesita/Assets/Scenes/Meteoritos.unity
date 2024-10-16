@@ -267,8 +267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridarea: {fileID: 1804030787}
   asteroideprefab: {fileID: 6311883668028827200, guid: 4e660eca74f7be040a0563c5ab955542, type: 3}
-  delay: 0.1
+  delay: 3
   inicio: 3
+  sec: {fileID: 0}
 --- !u!1 &292226555
 GameObject:
   m_ObjectHideFlags: 0
