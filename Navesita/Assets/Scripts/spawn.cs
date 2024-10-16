@@ -6,10 +6,11 @@ public class spawn : MonoBehaviour
 {
     public BoxCollider2D gridarea;
     public GameObject asteroideprefab;
-    public float delay = .5f;
+    public float delay = 3f;
     public int inicio = 3;
+    
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         InvokeRepeating("randompos", inicio, delay);  
     }
