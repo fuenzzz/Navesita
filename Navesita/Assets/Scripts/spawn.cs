@@ -41,8 +41,9 @@ public class spawn : MonoBehaviour
     }
     public void acelerar()
     {
-        delay /= 2;
+        delay -= 0.6f;
         CancelInvoke("randompos");
         InvokeRepeating("randompos", 0, delay);
+        Debug.Log("socorro");
     }
 }
