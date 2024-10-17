@@ -41,7 +41,16 @@ public class spawn : MonoBehaviour
     }
     public void acelerar()
     {
-        delay -= 0.6f;
+        if (delay > 0.1f)
+        {
+            delay -= 0.5f;
+
+        }
+        else
+        {
+            delay = 0.1f;
+        }
+
         CancelInvoke("randompos");
         InvokeRepeating("randompos", 0, delay);
         Debug.Log("socorro");
