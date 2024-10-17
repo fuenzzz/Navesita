@@ -24,7 +24,7 @@ public class Temporizador : MonoBehaviour
 
         if (sec%10 ==0 )
         {
-            delay.GetComponent<GameObject>().delay();
+            delay.GetComponent<spawn>().acelerar();
         }
 
     }

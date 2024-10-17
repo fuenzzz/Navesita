@@ -39,4 +39,10 @@ public class spawn : MonoBehaviour
         }
 
     }
+    public void acelerar()
+    {
+        delay /= 2;
+        CancelInvoke("randompos");
+        InvokeRepeating("randompos", 0, delay);
+    }
 }
