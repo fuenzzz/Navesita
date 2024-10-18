@@ -43,7 +43,7 @@ public class spawn : MonoBehaviour
     {
         if (delay > 0.1f)
         {
-            delay -= 0.5f;
+            delay /= 1.5f;
 
         }
         else
